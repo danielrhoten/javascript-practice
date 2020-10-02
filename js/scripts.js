@@ -4,6 +4,11 @@ let score = 0;
 let myName = 'Daniel';
 let isActive = null;
 
+logScore();
+addOne();
+logScore();
+
+
 let object = {
     score: 0,
     myName: 'Daniel',
@@ -25,10 +30,6 @@ button.style.color = 'red';
 
 
 
-logScore();
-addOne();
-logScore();
-
 function addOne() {
     score++;
 }
@@ -36,4 +37,15 @@ function addOne() {
 function logScore() {
     console.log(score);
 }
+
+let myString = "this is my first string.";
+undefined
+myString
+"this is a string."
+myString.length
+17
+let myOtherString = 'this is my other string.';
+
+
+
 
